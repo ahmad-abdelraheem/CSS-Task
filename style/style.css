@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+  
+}
+
+.continer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+   
+ }
+ .div{
+border: inset;
+border-color: rgb(197, 195, 195);
+width: 300px;
+height: 350px;
+margin: 20px;
+border-radius: 20px;
+}
+.div:hover{
+   
+  margin-top: 5px;
+ box-shadow: 0 0 10px #867c7c;
+
+}
+img{
+    border-radius: 12px  12px 0  0;
+}
+div.sun1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 100%;
+height: 46%;
+    
+}
+
+ div.sun2{
+  margin-left: 3px;
+padding:5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius:  0 0  10px 10px;
+    width: 95%;
+height: 46%;
+text-indent: 5px;
+font-size: 10px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: rgb(50, 71, 71);
+    
+}
+.gb{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+ 
+}
+.anco{
+margin-top: 3px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 21px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.anco:hover{
+    text-decoration: underline;
+}
+
+.ntc{
+   
+    width: 25px;
+    height: 17px;
+    color: aliceblue;
+    background-color:rgb(139, 222, 75);
+    border-radius: 2px  0  0 2px ;
+    text-align: center;
+}
+
+.gr2{
+    
+    width: 100px;
+    height: 17px;
+    border: solid;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border-radius: 5px  5px 5px  5px ;
+    border-color:rgb(139, 222, 75) ;
+}
+.jgc{
+    padding: 1px;
+    font-size: 13px;
+    text-align: center;
+    border-radius:0 5px  5px 0;
+    color:rgb(139, 222, 75) ;
+}
+.pl1{
+    font-size: 16px ;
+    color: rgb(43, 171, 226);
+    font-weight: bold;
+}
+.pl2{
+    font-size: 16px ;
+    color: rgb(76, 43, 226);
+    font-weight: bold;
+}
+.pl3{
+    font-size: 16px ;
+    color: rgb(180, 43, 226);
+    font-weight: bold;
+}
